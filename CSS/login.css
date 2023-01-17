@@ -1,0 +1,41 @@
+body{
+    background-color: #FFFFFF;
+    font-family: SoDoSans,Helvetica Neue,Helvetica,Arial,sans-serif;
+
+}
+.navbar-container {
+    box-shadow: 0px 4px 5px 0px aliceblue;
+    -webkit-box-shadow: 0px 4px 5px 0px aliceblue;
+    -moz-box-shadow: 0px 4px 5px 0px aliceblue;
+}
+.navbar {
+    max-width: 1560px;
+    padding: 20px;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+.navbar-left svg {
+    width: 50px;
+    margin-right: 20px;
+}
+.higher{
+    text-align: center;
+    padding: 40px;
+    margin-right: 228px;
+    margin-left: 228px;
+}
+.signin{
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 500px;
+    height: 500px;
+    background-color:rgb(12, 219, 219);
+    padding-left: 32px;
+    padding-top: 32px;
+    padding-bottom: 40px;
+    border-radius: 50px;
+}
