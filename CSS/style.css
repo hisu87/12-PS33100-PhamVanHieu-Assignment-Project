@@ -62,7 +62,6 @@ img {
    height: auto;
 }
 body {
-    height: 100%;
     margin: 0;
     background-color: #ffffff;
     color: rgba(0, 0, 0, .87);
@@ -81,7 +80,8 @@ body {
     -moz-box-shadow: 0px 4px 5px 0px rgba(191, 122, 122, 0.71);
 }
 .navbar {
-    max-width: 1560px;
+   font-family: Kanit;
+    max-width: 100%;
     padding: 20px;
     font-size: 14px;
     display: flex;
@@ -89,53 +89,30 @@ body {
     align-items: center;
     margin: auto;
 }
-.navbar-left .menu{
-    border: #00754a solid 2px;
-  padding: 10px;
-  border-radius: 20px;
 
-}
-.navbar-left .rewards{
-   border: #00754a solid 2px;
-  padding: 10px;
-  border-radius: 20px;
-  }
-.navbar-left .gift{
-  border: #00754a solid 2px;
-  padding: 10px;
-  border-radius: 20px;
-
-}
-.navbar-left .menu:hover{
-   background-color: #00754a;
-  color: aliceblue;
-}
-.navbar-left .rewards:hover{
-  background-color: #00754a;
-  color: aliceblue;
-}
-.navbar-left .gift:hover{
-  background-color: #00754a;
-  color: aliceblue;
-}
 .navbar-left svg {
     width: 50px;
     margin-right: 20px;
 }
 
-.navbar-left div {
+.navbar-left >a {
     text-transform: uppercase;
-    font-weight: 600;
+    font-weight: 500;
+    font-size: 23px;
+    text-decoration: none;
+    color: black;
 }
-.navbar-left div:hover,
+.navbar-left >a:hover,
 .find-a-store:hover {
     color: #00754a;
+    text-decoration: none;
 }
 
 .navbar-left,
 .navbar-right {
     display: flex;
     align-items: center;
+    font-size: 23px;
 }
 
 .navbar-left > *,
@@ -188,7 +165,7 @@ body {
 }
 
 .container {
-    max-width: 1440px;
+    max-width: 100%;
     margin: auto;
 }
 .product img {
@@ -269,7 +246,142 @@ body {
     font-size: 19px;
     color: #1E3932;
 }
+/* main__wrap Style */
+#main__wrap {
+  width: 100%;
+  height: 640px;
+  background-image: url(../img/warp/main_background.jpg);
+  background-repeat: no-repeat;
+}
+#main__wrap .wrap__container {
+  position: relative;
+  max-width: 57.8em;
+  margin: 0 auto;
+}
+.wrap__title {
+  padding-top: 3.625em;
+}
+.wrap__title .detail__btn {
+  width: 7.6em;
+  border-radius: 0.3125em;
+  border: 0.125em solid #005481;
+  padding: 0.5em 0.8em;
+  text-align: center;
+  left: 1em;
+  margin-top: 1.434em;
+  margin-left: 2.3em;
+}
+.detail__btn a {
+  color: #005481;
+  font-weight: 400;
+}
+.detail__btn a:hover {
+  text-decoration: underline;
+}
 
+.wrap__products .product {
+  position: absolute;
+}
+.wrap__products .product::after {
+  content: "";
+  position: absolute;
+}
+.wrap__product1 {
+  right: 11.25em;
+  top: 6.875em;
+}
+.wrap__product1 img {
+  position: relative;
+  z-index: 10;
+}
+
+.wrap__product1::after {
+  top: 32px;
+  bottom: 0;
+  left: -13.6125em;
+  width: 189px;
+  background-image: url(../img/warp/main_blended_title.png);
+  background-repeat: no-repeat;
+}
+
+.wrap__product2 {
+  top: 17.5em;
+  right: 23.313em;
+  width: 18%;
+  max-width: 11.57em;
+}
+.wrap__product2 img {
+  position: relative;
+  z-index: 15;
+  top: 40px;
+  left: -50px;
+  transform: scaleY(1.23) scaleX(1.156);
+}
+.wrap__product2::after {
+  background-image: url(../img/warp/main_coldbrew_title.png);
+  top: 10.5em;
+  bottom: 0;
+  left: -18.8125em;
+  width: 203px;
+  background-repeat: no-repeat;
+}
+.wrap__product2::before {
+  content: "";
+  position: absolute;
+  top: 13em;
+  bottom: 20.2%;
+  left: -6.69em;
+  height: 90%;
+  width: 249px;
+  z-index: 9;
+  background-repeat: no-repeat;
+  background-image: url(../img/warp/main_coldbrew_bg.png);
+}
+
+.wrap__product3 {
+  top: 11.25em;
+  right: -3.75em;
+}
+.wrap__product3::after {
+  top: -4.375em;
+  bottom: 0;
+  left: -2.06em;
+  width: 223px;
+  background-image: url(../img/warp/main_tea_title.png);
+  background-repeat: no-repeat;
+}
+.containers{
+   height: 300px;
+   padding: 20px;
+   display: grid;
+      grid-auto-flow: column;
+      grid-auto-columns: 1fr;
+      gap: 30px;
+}
+.containers >.item{
+   padding: 40px;
+   background-color: #064668;
+   border: #ffffff solid 1px;
+   border-radius: 15px;
+}
+.containers >.item >img{
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   border-radius: 20px;
+}
+.containers >.item >span{
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   text-align: center;
+   font-family: Kanit;
+   font-weight: 500;
+   font-size: 35px;
+   color: antiquewhite  ;
+   text-shadow: 0px 0px 1px black 1px 0px black;
+
+}
 
 /*=== FOOTER START ===*/
 
