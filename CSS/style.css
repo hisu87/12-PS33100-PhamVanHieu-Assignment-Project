@@ -46,6 +46,7 @@
 html,
 body {
    overflow-x: hidden;
+   zoom: 110%;
 }
 
 html {
@@ -80,7 +81,7 @@ body {
     -moz-box-shadow: 0px 4px 5px 0px rgba(191, 122, 122, 0.71);
 }
 .navbar {
-   font-family: Kanit;
+   font-family: Mulish;
     max-width: 100%;
     padding: 20px;
     font-size: 14px;
@@ -97,7 +98,7 @@ body {
 .navbar-left >a {
    font-family: Kanit;
     text-transform: uppercase;
-    font-weight: 500;
+    font-weight: 400;
     font-size: 20px;
     text-decoration: none;
     color: black;
@@ -209,19 +210,33 @@ body {
 }
 
 .product-button-white {
-    color: #1E3932;
+   text-decoration: none;
+   color: #1E3932;
+    border-color: #1E3932;
+}
+.product-button-white >a{
+   text-decoration: none;
+   color: #1E3932;
     border-color: #1E3932;
 }
 .product-button-white:hover {
+   text-decoration: none;
     color: #1E3932;
     background-color: rgba(30, 57, 50, 0.1);
 }
 
 .product-button-black {
+   text-decoration: none;
+    color: #ffffff;
+    border-color: white;
+}
+.product-button-black >a{
+   text-decoration: none;
     color: #ffffff;
     border-color: white;
 }
 .product-button-black:hover {
+   text-decoration: none;
     border-color: #ffffff;
      background-color: rgba(255, 255, 255, 0.432);
 }
@@ -247,6 +262,8 @@ body {
 }
 /* main__wrap Style */
 #main__wrap {
+   padding-top: 40px;
+   padding-bottom: 40px;
   width: 100%;
   height: 640px;
   background-image: url(../img/warp/main_background.jpg);
@@ -350,8 +367,10 @@ body {
   background-repeat: no-repeat;
 }
 .containers{
-   height: 300px;
-   padding: 20px;
+   height: 1fr;
+   padding: 10px;
+   border: #064668 solid 3px;
+   border-radius: 15px;
    display: grid;
       grid-auto-flow: column;
       grid-auto-columns: 1fr;
@@ -359,7 +378,7 @@ body {
 }
 .containers >.item{
    padding: 40px;
-   background-color: #064668;
+   background-color: #1E3932;
    border: #ffffff solid 1px;
    border-radius: 15px;
 }
