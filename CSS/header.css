@@ -53,17 +53,20 @@ header nav {
 .menus__main-manu {
   display: flex;
 }
-
 .menus__sub-menu {
   font-size: 12px;
   margin: 0 50px 20px;
   cursor: pointer;
 }
-
+.menus__sub-menu >li >a{
+   font-size: 12px;
+  cursor: pointer;
+}
+.menus__sub-menu a,
 .menus__sub-menu li {
   color: var(--black);
 }
-
+.menus__sub-menu >li >a:hover,
 .menus__sub-menu li:hover {
   text-decoration: underline;
 }
@@ -74,9 +77,10 @@ header nav {
   border: 1px solid #ccc;
   border-radius: 4px;
   position: relative;
-  top: -4px;
+
 }
 .menus__sub-menu li,
+
 .menus__sub-menu button {
   padding: 5px 10px;
   margin: 0 10px;
