@@ -47,6 +47,7 @@ html,
 body {
    overflow-x: hidden;
    zoom: 110%;
+   background-color: #1E3932;
 }
 
 html {
@@ -75,6 +76,9 @@ body {
     -webkit-font-smoothing: antialiased;
     font-feature-settings: 'calt';
 }
+.container{
+   background-color: #F5EDDA;
+}
 .navbar-container {
     box-shadow: 0px 4px 5px 0px rgba(191, 122, 122, 0.71);
     -webkit-box-shadow: 0px 4px 5px 0px rgba(191, 122, 122, 0.71);
@@ -84,6 +88,7 @@ body {
    font-family: Mulish;
     max-width: 100%;
     padding: 20px;
+    font-weight: 800;
     font-size: 14px;
     display: flex;
     justify-content: space-between;
@@ -98,8 +103,8 @@ body {
 .navbar-left >a {
    font-family: Kanit;
     text-transform: uppercase;
-    font-weight: 400;
-    font-size: 20px;
+    font-weight: 500;
+    font-size: 14px;
     text-decoration: none;
     color: black;
 }
@@ -113,7 +118,7 @@ body {
 .navbar-right {
     display: flex;
     align-items: center;
-    font-size: 20px;
+    font-size: 14px;
 }
 
 .navbar-left > *,
@@ -128,6 +133,7 @@ body {
 }
 
 .sign-in{
+   color: black;
      font-weight: 500;
     border: 1px solid black;
     border-radius: 40px;
@@ -145,6 +151,7 @@ body {
 .join-now {
     background-color: black;
     color: white;
+    text-decoration: none;
 }
 
 .join-now:hover {
@@ -153,7 +160,7 @@ body {
 }
 
 .sign-in:hover {
-    background-color: #00754a;
+    background-color: #999;
     text-decoration: none;
 }
 .sign-in a:visited{
@@ -263,7 +270,6 @@ body {
 /* main__wrap Style */
 #main__wrap {
    padding-top: 40px;
-   padding-bottom: 40px;
   width: 100%;
   height: 640px;
   background-image: url(../img/warp/main_background.jpg);
@@ -369,8 +375,6 @@ body {
 .containers{
    height: 1fr;
    padding: 10px;
-   border: #064668 solid 3px;
-   border-radius: 15px;
    display: grid;
       grid-auto-flow: column;
       grid-auto-columns: 1fr;
