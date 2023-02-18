@@ -1,11 +1,13 @@
 
-
+@import url(header.css);
+@import url(reset.css);
 @import url("https://fonts.googleapis.com/css2?family=Poppins");
 
 * {
   box-sizing: border-box;
 }
-body {
+
+main {
     background-image: url(../img/signup/img-animation.gif);
     background-size: cover;
     background-repeat: no-repeat;
@@ -19,6 +21,9 @@ body {
     overflow: hidden;
     height: 100vh;
 }
+header{
+  background-color: rgba(255, 255, 255, 0.8);
+} 
 h1 {
   font-weight: 700;
   letter-spacing: -1.5px;
