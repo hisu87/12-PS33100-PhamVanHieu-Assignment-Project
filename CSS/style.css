@@ -46,7 +46,7 @@
 html,
 body {
    overflow-x: hidden;
-   zoom: 110%;
+   zoom: 100%;
    background-color: #1E3932;
 }
 
@@ -207,6 +207,7 @@ ion-icon {
     color: white;
 }
 .product-container {
+   width: 100%;
     margin: 40px 0px 40px 0px;
     display: flex;
 }
@@ -271,6 +272,13 @@ ion-icon {
     text-align: center;
     font-size: 19px;
     color: #1E3932;
+}
+#eGift{
+   display: block;margin: 40 auto;
+}
+#eGift-title{
+   padding-top: 200px;
+   color: #1E3932; font-size: 24px; font-weight: bold; margin-top: 20px;
 }
 /* main__wrap Style */
 #main__wrap {
