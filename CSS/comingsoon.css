@@ -18,10 +18,13 @@ body, html {
     color: rgb(0, 0, 0);
     /* Add a font */
     font-family: Mulish;
+    font-weight: 800;
     /* Set the font-size to 25 pixels */
     font-size: 25px;
   }
-  
+  .para{
+    background-color: rgba(255, 255, 255, 0.3);
+  }
   h1 {
     font-size: 72px;
     background: -webkit-linear-gradient(#00754A, rgb(212,233,226));
