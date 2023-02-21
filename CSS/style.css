@@ -47,7 +47,16 @@ html,
 body {
    overflow-x: hidden;
    zoom: 100%;
-   background-color: #1E3932;
+   background-color: #ffffff;
+   scroll-behavior: smooth;
+}
+
+.yourclass {
+-ms-overflow-style: none;
+scrollbar-width: none;
+}
+.yourclass::-webkit-scrollbar {
+ display: none;
 }
 
 html {
@@ -65,7 +74,6 @@ img {
 }
 body {
     margin: 0;
-    background-color: #ffffff;
     color: rgba(0, 0, 0, .87);
     font-family: SoDoSans, Helvetica Neue, Helvetica, Arial, sans-serif;
     font-weight: 400;
@@ -394,7 +402,7 @@ ion-icon {
 }
 .containers >.item{
    padding: 20px;
-   background-color: #1E3932;
+   background-color: rgba(31,57,51,0.95);
    border: #ffffff solid 1px;
    border-radius: 15px;
 }
