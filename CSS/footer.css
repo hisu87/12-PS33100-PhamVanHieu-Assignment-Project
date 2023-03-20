@@ -1,4 +1,8 @@
 /*=== FOOTER START ===*/
+::marker {
+   color: transparent;
+   display: none;
+}
 
 .footer {
    border-top: 1px solid rgba(0,0,0,.3);

@@ -8,9 +8,17 @@
   --gray: #7d7d7d;
   --light-gray: #f4f4f2;
 }
+::marker {
+  color: transparent;
+  display: none;
+}
+::-moz-list-bullet {
+  color: transparent;
+  display: none;
+}
 
 * {
-  box-sizing: border-box;
+  box-sizing: border-box; 
 }
 
 button {
