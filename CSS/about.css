@@ -3,44 +3,54 @@
 @import url(footer.css);
 
 body {
-  font-family: Mulish;
-  font-weight: 400;
-  font-size: 20px;
-  margin: 20px;
+    font-family: Mulish;
+    font-weight: 400;
+    font-size: 20px;
+    margin: 20px;
+    /* hi */
 }
-.container{
+
+.container {
     padding: 50px;
 }
-.container >.para >h1 >.sds{
+
+.container>.para>h1>.sds {
     text-decoration: none;
     color: black;
 }
-.container >.para >h1 >.sds:hover{
+
+.container>.para>h1>.sds:hover {
     text-decoration: none;
     color: green;
 }
-.container >.para >p >.cltn{
+
+.container>.para>p>.cltn {
     color: green;
 }
-.container >.para >p >.cltn:hover{
+
+.container>.para>p>.cltn:hover {
     color: cornsilk;
     background-color: green;
 }
-h1{
+
+h1 {
     font-size: 30px;
     font-weight: 800;
 }
-h2{
+
+h2 {
     font-size: 25px;
     font-weight: 800;
 }
-img{
+
+img {
     border: 3px solid lightgreen;
     border-radius: 40px;
     width: 40%;
     margin: 10px;
 }
-p{
+
+p {
     font-weight: 800;
     font-size: 20px;
 }
